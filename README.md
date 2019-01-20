@@ -1,10 +1,11 @@
 ## schnipp-schnapp
 # Landing page with HTML/CSS/JS for a hairdresser
-
-Checklist:
-[] HTML/ SCSS/ JS
-[] Webpack
-[] SPA Routing
-
-Wishlist:
-[]  Lazy Loading
+</br>
+</br>
+Checklist:</br>
+[] HTML/ SCSS/ JS</br>
+[] Webpack</br>  
+[] SPA Routing</br>
+</br>
+Wishlist:</br>
+[]  Lazy Loading</br>
