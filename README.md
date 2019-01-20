@@ -1,5 +1,6 @@
 # schnipp-schnapp
-## Landing page with HTML/CSS/JS for a hairdresser
+
+Landing page with HTML/CSS/JS for a hairdresser
 </br>
 </br>
 Checklist:</br>
