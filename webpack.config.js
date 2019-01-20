@@ -35,7 +35,7 @@ module.exports = {
   module: {
       rules: [{
           //   get all files with file extension CSS
-          test: /\.css/,
+          test: /\.scss/,
           //   enable CSS imports and add them to HTML file
           use: ['style-loader', 'css-loader', 'sass-loader']
       },{ 

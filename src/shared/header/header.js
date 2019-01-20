@@ -1,6 +1,6 @@
 import './header.scss';
 
-const createHMTL = (html) => {
+const createHTML = (html) => {
   const div = document.createElement('div');
   div.classList.add('header');
   div.innerHTML = html;
