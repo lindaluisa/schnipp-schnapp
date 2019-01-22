@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "name": "Haarstudio Heckmann",
+      "sections" : [
+        {
+          "aveda": "Aveda",
+          "team": "Team",
+          "services": "Services",
+          "about": "Über uns",
+          "contact":"Kontakt"
+        }
+      ],
+      "mission": "AVEDA HAT SICH ZUM ZIEL GESETZT, SORGSAM UND RESPEKTVOLL MIT DER UMWELT UMZUGEHEN. DIESE PHILOSOPHIE KOMMT SOWOHL IN UNSEREN PRODUKTEN ALS AUCH IN UNSEREM BEMÜHEN UM DAS WOHLERGEHEN DER MITMENSCHEN ZUM AUSDRUCK. AVEDA WILL IM VERANTWORTUNGSBEWUSSTEN UMGANG MIT DER NATUR UND IHREN RESSOURCEN EINE FÜHRUNGSROLLE ÜBERNEHMEN - NICHT NUR IN DER WELT DER KOSMETIK SONDERN AUCH ZUGUNSTEN DER WELT, IN DER WIR LEBEN.",
+      "missionName" :"Aveda Mission",
+      "openingHours": [
+        {
+          "day": "Montag",
+          "time": "10.00 Uhr - 18.00 Uhr"
+        },
+        {
+          "day": "Dienstag",
+          "time": "10.00 Uhr - 18.00 Uhr"
+        },
+        {
+          "day": "Mittwoch",
+          "time": "10.00 Uhr - 18.00 Uhr"
+        },
+        {
+          "day": "Donnerstag",
+          "time": "10.00 Uhr - 18.00 Uhr"
+        },
+        {
+          "day": "Freitag",
+          "time": "10.00 Uhr - 18.00 Uhr"
+        },
+        {
+          "day": "Samstag",
+          "time": "10.00 Uhr - 18.00 Uhr"
+        },
+        {
+          "day": "Sonntag",
+          "time": "geschlossen"
+        }
+      ]
+    }
+  ]
+}
