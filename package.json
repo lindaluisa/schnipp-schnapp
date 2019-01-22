@@ -1,0 +1,36 @@
+{
+  "name": "schnipp-schnapp",
+  "version": "1.0.0",
+  "description": "Landing page with HTML/CSS/JS for a hairdresser </br> </br> Checklist:</br> [] HTML/ SCSS/ JS</br> [] Webpack</br> [] SPA Routing</br> </br> Wishlist:</br> []  Lazy Loading</br>",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjanastinn/schnipp-schnapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjanastinn/schnipp-schnapp/issues"
+  },
+  "homepage": "https://github.com/jjanastinn/schnipp-schnapp#readme"
+}
