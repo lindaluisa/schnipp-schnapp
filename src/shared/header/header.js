@@ -1,15 +1,10 @@
 import './header.scss';
-
-const createHTML = (html) => {
-  const div = document.createElement('div');
-  div.classList.add('header');
-  div.innerHTML = html;
-  return div;
-}
+import {createHTML} from '../../lib/lib';
 
 const header = () => {
   const html = '<div>HEADER</div>';
-  document.getElementById('container').appendChild(createHTML(html));
+  document.getElementById('container')
+          .appendChild(createHTML(html,'header'));
 }
 
 export default header;
