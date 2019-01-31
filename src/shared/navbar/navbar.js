@@ -5,15 +5,21 @@ import './navbar.scss';
 let Navbar = {
   render: async () => {
       let view = `
-           <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-start">
-                <a class="navbar-item" href="/#/">Home</a>
-                <a class="navbar-item" href="/#/about">About</a>
-                <a class="navbar-item" href="/#/services">Services</a>
-                <a class="navbar-item" href="/#/kontakt">Kontakt</a>
-                <a class="navbar-item" href="/#/impressum">Impressum</a>
+        <nav class="navbar">
+          <div class="navbar-items">
+            <div class="navbar-item"><a href="/#/about">About</a></div>
+            <div class="navbar-item"><a href="/#/services">Services</a></div>
+            <div class="navbar-item navbar-logo">
+              <a href="/#/">
+                <div>Friseur</div>
+                <div class="navbar-logo_line"></div>
+                <div>Heckmann</div>
+              </a>
             </div>
-          </nav>
+            <div class="navbar-item"><a href="/#/kontakt">Kontakt</a></div>
+            <div class="navbar-item"><a href="/#/impressum">Impressum</a></div>
+          </div>
+        </nav>
       `
       return view
   },

@@ -1,3 +1,30 @@
-#container {
-  background-color: red;
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+body {
+  margin: 0;
+  padding: 0 35px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fefefc;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+#header_container {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  left: 0;
+}
+
+#page_container {
+  margin-top: 55px;
 }

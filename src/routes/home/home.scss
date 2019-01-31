@@ -1,0 +1,41 @@
+
+.home {
+  
+  position: relative;
+
+  &-headline {
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    font-size: 6em;
+    font-weight: 100;
+    position: absolute;
+    margin: 140px 0 0 0;
+    color: #c7c7c7;
+    mix-blend-mode: exclusion;
+  }
+
+  &-plus {
+    color: #31a931;
+    margin: 0;
+  }
+  
+  &-r2 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    
+    &c2 {
+      background: radial-gradient(#c1b1b1d9 30%, #c5b1b1);
+      padding: 10px;
+
+      &_headline {
+        text-align: right;
+        margin-right: -25px;
+      }
+      
+      &_text {
+        font-size: 0.75em;
+      }
+    }
+  }
+
+}
