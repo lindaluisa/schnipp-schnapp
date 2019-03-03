@@ -12,11 +12,10 @@ let Navbar = {
             <div class="navbar-burger_line navbar-burger_line_two"></div>
             <div class="navbar-burger_line navbar-burger_line_three"></div>
           </div>
+          <div class="navbar-logo">Friseur<br>Heckmann</div>
           <div class="navbar-items">
             <div class="navbar-item navbar-item_about"><a href="/#/about">About</a></div>
             <div class="navbar-item navbar-item_services"><a href="/#/services">Services</a></div>
-            <div class="navbar-item navbar-item_kontakt"><a href="/#/kontakt">Kontakt</a></div>
-            <div class="navbar-item navbar-item_impressum"><a href="/#/impressum">Impressum</a></div>
             <div class="navbar-item navbar-item_logo">
               <a href="/#/">
                 <div>Friseur</div>
@@ -24,6 +23,8 @@ let Navbar = {
                 <div>Heckmann</div>
               </a>
             </div>
+            <div class="navbar-item navbar-item_kontakt"><a href="/#/kontakt">Kontakt</a></div>
+            <div class="navbar-item navbar-item_impressum"><a href="/#/impressum">Impressum</a></div>
           </div>
         </nav>
       `
@@ -35,6 +36,7 @@ let Navbar = {
     const lineTwo = document.querySelector('.navbar-burger_line_two');
     const lineThree = document.querySelector('.navbar-burger_line_three');
     const pageContent = document.querySelector("#page_container");
+    const mobileLogo = document.querySelector(".navbar-logo");
     const menu = document.querySelector(".navbar-items");
     
     const burgerAnimation = () => {
@@ -47,6 +49,7 @@ let Navbar = {
         lineThree.classList.remove('showThree');
         menu.style.display = "none";
         pageContent.style.display = "inherit";
+        mobileLogo.style.display = "inherit";
       } else {
         lineOne.classList.add('showOne');
         lineOne.classList.remove('hideOne');
@@ -56,6 +59,7 @@ let Navbar = {
         lineThree.classList.remove('hideThree');
         menu.style.display = "grid";
         pageContent.style.display = "none";
+        mobileLogo.style.display = "none";
       }
     }
     

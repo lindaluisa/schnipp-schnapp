@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
 
 /* VARIABLES */
 
 $main-color: #fefefc;
+$highlight-color: #31a931;
 $tablet-width: 768px;
 $desktop-width: 1024px;
 
@@ -26,10 +28,14 @@ $desktop-width: 1024px;
 
 body {
   margin: 0;
-  padding: 0 35px;
+  padding: 0 20px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   background-color: $main-color;
+
+  @include tablet {
+    padding: 0 35px;
+  }
 }
 
 a {
@@ -54,5 +60,9 @@ img {
 }
 
 #page_container {
-  margin-top: 55px;
+  margin-top: 66px;
+
+  @include tablet {
+    margin-top: 55px;
+  }
 }

@@ -37,6 +37,18 @@
     }
   }
 
+  &-logo {
+    border-right: 2px solid $highlight-color;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-transform: uppercase;
+    padding: 0 5px;
+    line-height: 1.15em;
+    margin: 15px 20px;
+  }
+
   &-items {
     display: none;
     background-color: $main-color;
@@ -54,6 +66,10 @@
 
   @include tablet {
     &-burger {
+      display: none;
+    }
+
+    &-logo {
       display: none;
     }
 
