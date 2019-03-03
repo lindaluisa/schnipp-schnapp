@@ -14,12 +14,14 @@ let Kontakt = {
   render : async () => {
     let openingHours = await getOpeningHours()
     let view = `
-      <ul>
-          ${ openingHours.map(openingHour => 
-              `<li>${openingHour.day} ${openingHour.time}</li>`
-              )
-          }
-      </ul>
+      <section class="kontakt">
+        <ul>
+            ${ openingHours.map(openingHour => 
+                `<li>${openingHour.day} ${openingHour.time}</li>`
+                )
+            }
+        </ul>
+      </section>
     `
     return view
   },
