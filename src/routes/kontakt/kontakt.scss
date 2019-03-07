@@ -1,0 +1,78 @@
+.kontakt {
+  position: relative;
+
+  &-headline {
+    font-size: 4em;
+    font-weight: 100;
+    position: absolute;
+    margin: 275px 0px 0 30px;
+    color: #c7c7c7;
+    mix-blend-mode: exclusion;
+  }
+  &-plus {
+    color: #31a931;
+    margin: 0;
+    letter-spacing: -0.1em;
+    text-align: right;
+
+    &-kontakt {
+      font-size: 1em;
+      letter-spacing: normal;
+    }
+  }
+
+
+
+  & ul {
+    list-style-type: none;
+  }
+
+  &-text {
+    padding: 3em 8em;
+    background: linear-gradient(to bottom, #111622, #000000);
+    line-height: 1.6em;
+    color: #dedede;
+    margin-bottom: 10px;
+    border-right: 10px solid #31a831;
+  }
+
+  &-r2 {
+    display: grid;
+    margin-bottom: 20px;
+
+    &c1 {
+      padding: 10px;
+      width: 40%;
+      grid-row-start: 2;
+      position: absolute;
+      top: 600px;
+      left: 30px;
+      color: #dedede;
+    }
+
+    &c2 {
+      background: linear-gradient(to bottom, #f9f7f7, #dedede);
+      padding: 10px 20px;
+      width: 50%;
+    }
+  }
+
+  &-r3 {
+    display: grid;
+    border: 1px solid black;
+    height: 50vh;
+  }
+
+  &-adress {
+    width: 16%;
+    position: absolute;
+    top: 390px;
+    left: 140px;
+    color: #dedede;
+    text-align: center;
+    padding: 1em 4em;
+    border: 7px #31a632 solid;
+  }
+}
+
+
