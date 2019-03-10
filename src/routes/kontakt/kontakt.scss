@@ -34,6 +34,13 @@
     color: #dedede;
     margin-bottom: 10px;
     border-right: 10px solid #31a831;
+
+    &__cta {
+      font-family: 'Sedgwick Ave', cursive;
+      font-size: 1em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
   }
 
   &-r2 {
@@ -41,9 +48,7 @@
     margin-bottom: 20px;
 
     &c1 {
-      padding: 10px;
-      width: 40%;
-      grid-row-start: 2;
+      width: 29%;
       position: absolute;
       top: 600px;
       left: 30px;
@@ -58,20 +63,19 @@
   }
 
   &-r3 {
-    display: grid;
-    border: 1px solid black;
     height: 50vh;
+    border-left: 10px solid #31a831;
+    background: linear-gradient(to bottom, #000000, #111622);
   }
 
   &-adress {
-    width: 16%;
+    width: 25%;
     position: absolute;
     top: 390px;
     left: 140px;
     color: #dedede;
     text-align: center;
     padding: 1em 4em;
-    border: 7px #31a632 solid;
   }
 }
 
