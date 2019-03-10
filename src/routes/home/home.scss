@@ -1,0 +1,95 @@
+@import '../../index.scss';
+
+.home {
+  position: relative;
+  
+  &-headline {
+    font-size: 4em;
+    font-weight: 100;
+    position: absolute;
+    margin: -75px 0px 0 30px;
+    color: #c7c7c7;
+    mix-blend-mode: exclusion;
+  }
+
+  &-plus {
+    color: $highlight-color;
+    margin: 0;
+    font-size: 2em;
+    letter-spacing: -0.1em;
+    text-align: right;
+
+    &-aveda {
+      font-size: 1em;
+      letter-spacing: normal;
+    }
+  }
+
+  &-r3 {
+    display: grid;
+    margin-bottom: 20px;
+
+    &c1 {
+      padding: 10px;
+      background-color: #dedede;
+    }
+
+    &c2 {
+      grid-row-start: 1;
+      background: linear-gradient(to bottom, #f9f7f7, #dedede);
+      padding: 10px 20px;
+
+      &_headline {
+        margin-top: 0px;
+        letter-spacing: 0.03em;
+        font-family: 'Sedgwick Ave', cursive;
+        margin-left: -30px;
+      }
+
+      &_text {
+        text-transform: lowercase;
+        margin: 0;
+        line-height: 1.3em;
+      }
+    }
+  }
+  
+  @include tablet {
+    &-headline {
+      transform: rotate(180deg);
+      writing-mode: vertical-rl;
+      font-size: 6em;
+      font-weight: 100;
+      margin: 140px 0 0 0;
+    }
+
+    &-plus {
+      text-align: left;
+    }
+    
+    &-r2 {
+      display: none;
+    }
+    
+    &-r3 {
+      grid-template-columns: 60% 40%;
+
+      &c1 {
+        padding: 0;
+        background-color: $main-color;
+      }
+      
+      &c2 {
+        grid-column-start: 2;
+        padding: 15px;
+        margin-bottom: 4px;
+        margin-left: 5px;
+  
+        &_headline {
+          text-align: right;
+          margin-right: -30px;
+        }
+      }
+    }
+  }
+}
