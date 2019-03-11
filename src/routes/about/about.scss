@@ -40,6 +40,14 @@
     font-size: 4em;
     letter-spacing: -0.1em;
     text-align: right;
+  
+    &__plus {
+      color: #31a931;
+      margin: 0;
+      font-size: 2em;
+      letter-spacing: -0.1em;
+      text-align: right;
+    }
   }
 
   &-text {
@@ -48,11 +56,11 @@
 
     &__cta {
       font-family: 'Sedgwick Ave', cursive;
-      font-size: 1em;
+      font-size: 18px;
       text-transform: uppercase;
       position: absolute;
-      top: 410px;
-      left: 120px;
+      top: 445px;
+      left: 130px;
       color: #c7c7c7;
       z-index: 100;
       line-height: 1.5;
@@ -65,5 +73,43 @@
       letter-spacing: 0.3px;
     }
   }
+}
 
+@include tablet {
+  .about {
+    &-headline {
+      color: #c7c7c7 !important;
+      transform: rotate(180deg);
+      writing-mode: vertical-rl;
+      font-size: 6em;
+      font-weight: 100;
+      margin: 190px 0 0 0;
+      left: 30px;
+      top: -30px;
+      mix-blend-mode: exclusion;
+    }
+
+    &-plus {
+      position: absolute;
+      top: 375px;
+      left: 64px;
+      color: #31a931;
+      margin: 0;
+      font-size: 6em;
+      letter-spacing: -0.1em;
+    }
+
+    &-text {
+      padding: 5em 15em;
+      line-height: 1.4;
+      text-align: right;
+      width: 450px;
+
+      &__cta {
+      width: 50%;
+      top: 600px;
+      left: 85px;
+      } 
+    }
+  }
 }

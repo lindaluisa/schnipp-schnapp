@@ -93,7 +93,7 @@
         width: 90px;
         height: 25px;
         padding: 24px;
-        background-color: #fefefc;
+        background-color: $main-color;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -101,7 +101,7 @@
         z-index: 100;
     
         &_line {
-          border: 1px solid #31a931;
+          border: 1px solid $highlight-color;
         }
       }
     }
