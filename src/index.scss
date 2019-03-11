@@ -6,23 +6,15 @@
 $main-color: #fefefc;
 $highlight-color: #31a931;
 $tablet-width: 768px;
-$desktop-width: 1024px;
 
 
 /* MIXINS */
 
 @mixin tablet {
-  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+  @media (min-width: #{$tablet-width}) {
     @content;
   }
 }
-
-@mixin desktop {
-  @media (min-width: #{$desktop-width}) {
-    @content;
-  }
-}
-
 
 /* RESET */
 

@@ -51,7 +51,6 @@
 
   &-items {
     display: none;
-    background-color: $main-color;
     font-size: 2em;
     line-height: 2.1em;
   }
@@ -93,7 +92,7 @@
         width: 90px;
         height: 50px;
         padding: 24px;
-        background-color: #fefefc;
+        background-color: $main-color;
         display: flex;
         justify-content: center;
         flex-direction: column;
